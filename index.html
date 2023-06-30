@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <h3>Adicione Sua tarefa</h3>
+
+        <div class="form-text">
+            <input type="text" placeholder="Afazeres..." title="Digite..." id="input-text">
+            <button id="btnAdd"> Adicionar </button>
+            <button id="remove-all"> <img src="./assets/icons8-lixeira.svg" alt="remove-items" title="Limpar">
+            </button>
+        </div>
+        <div class="content">
+            <span>Digite pelo menos 3 letras</span>
+            <span id="limit-Text">Limite máximo de 29 letras</span>
+
+            <ul id="to-do-list">
+
+                <!--to do list-->
+                <!--<li>
+                    <p>teste</p>
+                    <div>
+                        <button>
+                            <img id="btn-check" src="./assets/check.svg" alt="checked">
+                        </button>
+                        <button>
+                            <img id="btn-close" src="./assets/fechar.svg" alt="close-task">
+                        </button>
+                    </div>
+
+                </li>
+            -->
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
