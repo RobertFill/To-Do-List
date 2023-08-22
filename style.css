@@ -5,11 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    max-width: 1580px;
+   
 }
 
 body {
-
+    max-width: 1600px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -17,6 +17,9 @@ body {
     background-color: #6ba7af;
 
     color: white;
+}
+h1{
+    text-align: center;
 }
 
 .container {
@@ -78,7 +81,7 @@ h3 {
     background-color: rgb(110, 192, 110);
 
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
 
     cursor: pointer;
     transition: ease-in-out .3s;
@@ -165,9 +168,12 @@ span {
 }
 
 #to-do-list li.done { /*complete task*/
-
-    text-decoration: line-through;
     font-style: italic;
     background-color: rgb(32, 209, 41);
 
+}
+@media (max-width: 1920px){
+    body{
+        margin: 150px auto;
+    }
 }
